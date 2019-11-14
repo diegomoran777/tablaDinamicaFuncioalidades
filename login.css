@@ -1,0 +1,29 @@
+#titleLogScreen{
+	margin: auto;
+	color: white;
+	width: 30%;
+}
+
+.form-group{
+	margin: auto;
+	margin-top: 4%;
+	width: 40%;
+}
+@media screen and (max-width: 740px) {
+  .form-group
+  {
+    width:50%;
+  } 
+}
+  
+  
+@media screen and (max-width: 454px) {
+  .form-group
+  {
+	width:74%;
+  }
+  #titleLogScreen
+  {
+    width: 50%;
+  } 
+}

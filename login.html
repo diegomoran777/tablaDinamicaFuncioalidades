@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="content-type content= text/html charset=utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<title>Title</title>
+<body id="body" class="bg-secondary">
+<form id="formPass" class="form-group bg-dark" action="./ingresar.php" method="post">
+      <div id="titleLogScreen" class="input-group">
+        <h1>Login</h1>
+      </div>  
+    <div class="form-group col-md-9">
+    	<label class= "badge badge-dark" for="Id">ID Empleado</label>  
+    	<input id="Id" class="form-control" type="text" name="Id" placeholder="Id" autofocus=""/>
+    </div>
+    <div class="form-group col-md-9">
+    	<label class= "badge badge-dark" for="Pass">Pass</label>  
+    	<input id="Pass" class="form-control" type="password" name="Pass" placeholder="Pass" autofocus=""/>
+    </div>
+    <div class="form-group col-md-9">
+    	<input type="submit" value="Enviar" class="btn btn-secondary"/>
+    </div><br/>
+</form>
+</body>
+</html>
